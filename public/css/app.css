@@ -1,0 +1,29 @@
+body {
+    background-color: tomato;
+}
+
+@-webkit-keyframes entry {
+    from {
+        transform: translateY(2rem);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes entry {
+    from {
+        transform: translateY(2rem);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.entry {
+    opacity: 0;
+    -webkit-animation: entry 1s cubic-bezier(0.215, 0.610, 0.355, 1) forwards;
+            animation: entry 1s cubic-bezier(0.215, 0.610, 0.355, 1) forwards;
+}
+
