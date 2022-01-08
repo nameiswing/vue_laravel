@@ -6,7 +6,7 @@
 ### Vue Dependencies
 - Vue Router
 - Vuex
-- VueAxios
+- Vue Axios
 
 ### Installation
 1. `composer install`.
